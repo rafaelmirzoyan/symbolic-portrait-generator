@@ -4,14 +4,17 @@ Symbolic Portrait Generator is a Python-based tool that transforms images into s
 # ⚙️ How to Build
 1. Clone the repository
 
-  git clone https://github.com/yourusername/symbolic-portrait-generator.git
-  cd symbolic-portrait-generator
+`git clone https://github.com/yourusername/symbolic-portrait-generator.git`
+  
+`cd symbolic-portrait-generator`
 
 2. Install dependencies
-  pip install -r requirements.txt
+
+`pip install -r requirements.txt`
 
 3. Run the script
-  python main.py --input path/to/image.jpg --output output.txt
+
+`python main.py --input path/to/image.jpg --output output.txt`
 
 # Implementation Details
 A custom character scale is used to represent brightness values, ordered from darkest to lightest:
